@@ -92,7 +92,7 @@ The other topic such as vaccines could also help us to explore what are people s
 
 # References 
 
-[2] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].  
+[1] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].  
 [2] M. A. Kausar, A. Soosaimanickam, and M. Nasar, “Public Sentiment Analysis on Twitter Data during COVID-19 Outbreak,” International Journal of Advanced Computer Science and Applications, vol. 12, no. 2, 2021.  
 [3] B. P. Pokharel, “Twitter Sentiment Analysis During Covid-19 Outbreak in Nepal,” SSRN, 15-Jun-2020. [Online]. Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3624719. [Accessed: 09-May-2021].  
 [4] A. Pareek, “ayushoriginal/Sentiment-Analysis-Twitter,” GitHub, 20-Oct-2016. [Online]. Available: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter. [Accessed: 10-May-2021].   
