@@ -23,5 +23,5 @@ We collect our data from Kaggle about the Coronavirus tweets. The tweets have be
 
 - we remove those columns that are not useful for our sentiment analysis and only keep ‘OriginalTweet and ‘Sentiment’ in the data frame. Then we remove those emoticons, urls, userhandels, stopwords, negations, and special characters.
 - We use TextBlob package to visualize the sentiments with its polarity and subjectivity and count figure.
-![image](C:\Users\cheny\Desktop\1.png)
+![image]("C:\Users\cheny\Desktop\1.png")
 
