@@ -93,7 +93,11 @@ The sentiments are not labeled precisely since there are still existing some amb
 
 We could do more classification models or topic modeling in the future for different topic.  
 
-The other topic such as vaccines could also help us to explore what are people saying with respect to side effects
+The other topic such as vaccines could also help us to explore what are people saying with respect to side effects  
+
+# Acknowledgement 
+
+I want to thank Guoran Zhang for contributing classification and result part of this project. We did really good job on this sentiment analysis and perform nice results.
 
 # References 
 
