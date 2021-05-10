@@ -2,10 +2,9 @@
 # coding: utf-8
 
 ---
-**Acknowledgement**
+**Note**
 
-Thanks for Guoran Zhang writing Classification and result part of this project. We did really well for our classification results.
----
+Guoran Zhang writing Classification and result part of this project. 
 
 # In[1]:
 
