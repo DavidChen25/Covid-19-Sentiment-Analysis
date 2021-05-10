@@ -21,12 +21,16 @@ We collect our data from Kaggle about the Coronavirus tweets. The tweets have be
   
 ### Data Preprocessing
 
-- we remove those columns that are not useful for our sentiment analysis and only keep ‘OriginalTweet and ‘Sentiment’ in the data frame. Then we remove those emoticons, urls, userhandels, stopwords, negations, and special characters.
-- We use TextBlob package to visualize the sentiments with its polarity and subjectivity and count figure.
+Remove those columns that are not useful for our sentiment analysis and only keep ‘OriginalTweet and ‘Sentiment’ in the data frame. Then we remove those emoticons, urls, userhandels, stopwords, negations, and special characters.  
+
+We use TextBlob package to visualize the sentiments with its polarity and subjectivity and count figure.
 ![1](https://user-images.githubusercontent.com/54686263/117685734-305af980-b184-11eb-82bf-a7e3a2f97dbd.png) 
-- Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [10].
-![image](https://user-images.githubusercontent.com/54686263/117685977-6a2c0000-b184-11eb-8cdc-8a90aea44143.png)
-- The original common words showing above include those high frequent hashtags like “COVID”, “covid-19”, and “CORONAVIRUS” etc. We tend to remove these words and only keep “coronavirus” in the list. There are some high frequent words such like “price”, “food”, “consumer”, and “pandemic” etc.  
-- 
+
+Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [10].
+![image](https://user-images.githubusercontent.com/54686263/117685977-6a2c0000-b184-11eb-8cdc-8a90aea44143.png)  
+
+The original common words showing above include those high frequent hashtags like “COVID”, “covid-19”, and “CORONAVIRUS” etc. We tend to remove these words and only keep “coronavirus” in the list. There are some high frequent words such like “price”, “food”, “consumer”, and “pandemic” etc.  
+
+
 
 
