@@ -13,7 +13,7 @@
 
 # Related Work 
 - Ayush Pareek uses different feature sets like unigrams, bigrams, trigrams and negation detection and machine learning classifiers to find the best combination for sentiment analysis of twitter. He also manipulates different pre-processing steps like - punctuations, emoticons, twitter specific terms and stemming methods. He trains classifier by using some different machine-learning algorithms like the Naive Bayes, Decision Trees and Maximum Entropy. He concludes that both Negation Detection and higher order n-grams are useful for the text classification and Naive Bayes Classifier performs better than Maximum Entropy Classifier. He gets the best accuracy of 86.68% in the case of Unigrams + Bigrams + Trigrams combination which is trained on the Naive Bayes Classifier [4].  
-- Our most features coding and vectorization methods coding (N-grams & Negation handling) are from Ayush Pareek Github: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter 
+- Our vectorization methods coding (N-grams & Negation handling) are from Ayush Pareek Github: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter 
 
 # Method
 ## About the data
@@ -43,6 +43,17 @@ Figure 5: WordCloud of Extremly Negative Sentiment
 
 ## Vectorization  
 
+1. Tf-IDF: It stands for “Term Frequency — Inverse Document Frequency”. This is a common technique to quantify a word in documents, it generally computes a weight to each word which signifies the importance of the word in the document and corpus [11]. By calculating Tf-IDF, we can easily see the most frequent words appears in the tweet texts. Then it filters those commonly words and remains the important words. We are using sklearn feature extraction package to vectorizing the tweets with tf-idf.  
+2. Part-of-speech taggings: A POS tag (or part-of-speech tag) is a special label assigned to each word in a text corpus to indicate the part of speech like “N” stands for noun and “A” stands for adjective etc [12]. With this tool, we can generate and remove those common tagsets to keep remaining important features.  
+3. CountVectorizer: It is a common feature numerical calculation class, which is a text feature extraction method. For each training text, it only considers the frequency of each word in the training text. We use CounterVectorizer function in sklearn package to do our analysis. The CountVectorizer converts words in the text into a word frequency matrix, which counts the number of occurrences of each word using the FIT_Transform function. There are many parameters in CountVectorizer classes.It has 3 procedures which are preprocessing、tokenizing and n-grams generation. Word matrix elements a[i][j] represent the word frequency of j words in the ith text. That is, the number of occurrences of each word, get_feature_names() to see the keywords for all the text, and toarray() to see the results of the word frequency matrix.  
 
+# Classification  
 
+We split the whole dataset into training dataset with 80% and testing dataset with 20% of the whole dataset.  
+
+We set the stopwords as ‘English’ and add our stopwords list on it. Then using CountVectorizer function on tweet text we got in training and testing dataset and transform them into word matrix. Data shape after vecotrizer are shown below:  
+
+![2](https://user-images.githubusercontent.com/54686263/117687666-01458780-b186-11eb-8a14-12318d32d980.png)
+
+For our research, we used 7 different classification models to do the sentiment analysis which are Naive Bayes, Logistic Regression, Random Forest, Support Vector Machines, CatBoost, XGboost, Stochastic Gradient Decent.  
 
