@@ -1,4 +1,4 @@
-# Covid-19-Sentiment-Analysis
+# Sentiment Analysis of Covid-19 Tweets
 #### Chen Yuqi & Zhang Guoran
 
 # Abstract
