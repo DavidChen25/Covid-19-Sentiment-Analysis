@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+---
+**Acknowledgement**
+
+Thanks for Guoran Zhang writing Classification and result part of this project. We did really well for our classification results.
+---
+
 # In[1]:
 
 
