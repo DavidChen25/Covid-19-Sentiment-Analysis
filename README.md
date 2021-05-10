@@ -97,9 +97,15 @@ The other topic such as vaccines could also help us to explore what are people s
 # References 
 
 [1] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].  
+
 [2] M. A. Kausar, A. Soosaimanickam, and M. Nasar, “Public Sentiment Analysis on Twitter Data during COVID-19 Outbreak,” International Journal of Advanced Computer Science and Applications, vol. 12, no. 2, 2021.  
+
 [3] B. P. Pokharel, “Twitter Sentiment Analysis During Covid-19 Outbreak in Nepal,” SSRN, 15-Jun-2020. [Online]. Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3624719. [Accessed: 09-May-2021].  
+
 [4] A. Pareek, “ayushoriginal/Sentiment-Analysis-Twitter,” GitHub, 20-Oct-2016. [Online]. Available: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter. [Accessed: 10-May-2021].   
+
 [5] S. Dua, “Sentiment Analysis of COVID-19 Vaccine Tweets,” Medium, 29-Mar-2021. [Online]. Available: https://towardsdatascience.com/sentiment-analysis-of-covid-19-vaccine-tweets-dc6f41a5e1af. [Accessed: 10-May-2021].  
+
 [6] W. Scott, “TF-IDF for Document Ranking from scratch in python on real world dataset.,” Medium, 21-May-2019. [Online]. Available: https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089. [Accessed: 10-May-2021].  
+
 [7] “POS tags and part-of-speech tagging,” Sketch Engine, 25-Sep-2020. [Online]. Available: https://www.sketchengine.eu/blog/pos-tags/. [Accessed: 10-May-2021].  
