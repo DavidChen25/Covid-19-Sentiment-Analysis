@@ -1,5 +1,5 @@
 # Covid-19-Sentiment-Analysis
-### Yuqi Chen & Guoran Zhang
+#### Yuqi Chen & Guoran Zhang
 
 # Abstract
   COVID-19 pandemic happens on 11th March 2020 and it rapidly developed as one of the most wildly pandemic in human history. This study focuses on the sentiment analysis of tweets of the Twitter social media using Python programming language. The dataset has been collected from Twitter that contains 41157 tweets. The primary object is to use a sentiment classifier to study people’s attitudes to corona virus and predict. This report uses 7 different classification methods to predict the tweets contents and the corresponding attitudes. Results indicate that Catboost is the best model for multiclass classification with 61% accuracy and SGD is the best model for binary classification with 87% accuracy.
@@ -16,10 +16,10 @@
 - Our most features coding and vectorization methods coding (N-grams & Negation handling) are from Ayush Pareek Github: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter 
 
 # Method
-### About the data
+## About the data
 We collect our data from Kaggle about the Coronavirus tweets. The tweets have been pulled from Twitter and manual tagging has been done then. For this project, more than 40 thousand of tweets with the "COVID-19" related keywords between March 2020 to April 2020 were fetched for the sentiment analysis. The data originally contains 6 variables – UserName, ScreenName, Location, TweetAt, OriginalTweet, and Sentiment. The ScreeNames and UserNames have been given codes to avoid any privacy concerns. The data has already split into training and testing datasets with 41157 tweets in training dataset and 3798 tweets in testing dataset. The Sentiment has been transformed into 5 types of sentiments – extremely negative, negative, neutral, positive, extremely positive. TweetAt is the time variable which indicates the time the tweets have been posted. The originalTweet is the tweet texts we want to use to perform our sentiment analysis. So in next section we will introduce our data preprocessing steps in details.   
   
-### Data Preprocessing
+## Data Preprocessing
 
 Remove those columns that are not useful for our sentiment analysis and only keep ‘OriginalTweet and ‘Sentiment’ in the data frame. Then we remove those emoticons, urls, userhandels, stopwords, negations, and special characters.  
 
@@ -41,7 +41,7 @@ Figure 4: WordCloud of Extremly Positive Sentiment
 ![image](https://user-images.githubusercontent.com/54686263/117686316-becf7b00-b184-11eb-8ea2-4cd9d3bf9303.png)  
 Figure 5: WordCloud of Extremly Negative Sentiment  
 
-### Vectorization  
+## Vectorization  
 
 
 
