@@ -23,13 +23,23 @@ We collect our data from Kaggle about the Coronavirus tweets. The tweets have be
 
 Remove those columns that are not useful for our sentiment analysis and only keep ‘OriginalTweet and ‘Sentiment’ in the data frame. Then we remove those emoticons, urls, userhandels, stopwords, negations, and special characters.  
 
-We use TextBlob package to visualize the sentiments with its polarity and subjectivity and count figure.
+We use TextBlob package to visualize the sentiments with its polarity and subjectivity and count figure.  
+
 ![1](https://user-images.githubusercontent.com/54686263/117685734-305af980-b184-11eb-82bf-a7e3a2f97dbd.png) 
 
-Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [10].
+Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [10].  
+
 ![image](https://user-images.githubusercontent.com/54686263/117685977-6a2c0000-b184-11eb-8cdc-8a90aea44143.png)  
 
 The original common words showing above include those high frequent hashtags like “COVID”, “covid-19”, and “CORONAVIRUS” etc. We tend to remove these words and only keep “coronavirus” in the list. There are some high frequent words such like “price”, “food”, “consumer”, and “pandemic” etc.  
+
+Then we want to know that what is the common word difference between the “Positive” and “Negative” sentiment. We introduce the word-cloud map to show the comparison as figure 4 and figure 5 below. These word clouds yield similar result as the common words in figure 3. The extremely positive sentiment shows the reference words like “great”, “best”, “thank”, “hand-sanitizer”, and “free”. Moreover, the extremely negative sentiment shows the reference words like “panic”, “crisis”, and “fear” So I think it is more likely want to emphasis lots of people are experiencing the crisis period and feel panic and fear of the virus, but those people who get over the virus and get recovered are more optimal like they feel more thankful to the doctors or those vaccines that helps them recover.  
+
+![image](https://user-images.githubusercontent.com/54686263/117686300-bb3bf400-b184-11eb-977f-0efbb4f3b543.png)
+Figure 4: WordCloud of Extremly Positive Sentiment  
+
+![image](https://user-images.githubusercontent.com/54686263/117686316-becf7b00-b184-11eb-8ea2-4cd9d3bf9303.png)
+Figure 5: WordCloud of Extremly Negative Sentiment
 
 
 
