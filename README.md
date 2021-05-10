@@ -39,7 +39,9 @@ Then we want to know that what is the common word difference between the “Posi
 Figure 4: WordCloud of Extremly Positive Sentiment  
 
 ![image](https://user-images.githubusercontent.com/54686263/117686316-becf7b00-b184-11eb-8ea2-4cd9d3bf9303.png)  
-Figure 5: WordCloud of Extremly Negative Sentiment
+Figure 5: WordCloud of Extremly Negative Sentiment  
+
+### Vectorization  
 
 
 
