@@ -17,7 +17,7 @@ With the help of natural language processing (NLP) techniques, we can create mor
 # Related Work 
 Ayush Pareek uses different feature sets like unigrams, bigrams, trigrams and negation detection and machine learning classifiers to find the best combination for sentiment analysis of twitter. He also manipulates different pre-processing steps like - punctuations, emoticons, twitter specific terms and stemming methods. He trains classifier by using some different machine-learning algorithms like the Naive Bayes, Decision Trees and Maximum Entropy. He concludes that both Negation Detection and higher order n-grams are useful for the text classification and Naive Bayes Classifier performs better than Maximum Entropy Classifier. He gets the best accuracy of 86.68% in the case of Unigrams + Bigrams + Trigrams combination which is trained on the Naive Bayes Classifier [4].  
 
-Our vectorization methods coding (N-grams & Negation handling) are from Ayush Pareek Github: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter 
+Our vectorization methods coding (N-grams & Negation handling) are from [Ayush Pareek Github](https://github.com/ayushoriginal/Sentiment-Analysis-Twitter):   
 
 # Method
 ## About the data
