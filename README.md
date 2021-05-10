@@ -1,6 +1,7 @@
 # Sentiment Analysis of Covid-19 Tweets
 #### Chen Yuqi & Zhang Guoran
 
+
 # Abstract
   COVID-19 pandemic happens on 11th March 2020 and it rapidly developed as one of the most wildly pandemic in human history. This study focuses on the sentiment analysis of tweets of the Twitter social media using Python programming language. The dataset has been collected from Twitter that contains 41157 tweets. The primary object is to use a sentiment classifier to study people’s attitudes to corona virus and predict. This report uses 7 different classification methods to predict the tweets contents and the corresponding attitudes. Results indicate that Catboost is the best model for multiclass classification with 61% accuracy and SGD is the best model for binary classification with 87% accuracy.
 - _Keywords— —COVID-19; pandemic; sentiment analysis; Twitter; Catboost; SGD_
