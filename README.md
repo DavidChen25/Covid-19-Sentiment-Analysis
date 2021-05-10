@@ -97,7 +97,7 @@ The other topic such as vaccines could also help us to explore what are people s
 
 # Acknowledgement 
 
-I want to thank Guoran Zhang for contributing classification and result part of this project. We did really good job on this sentiment analysis and perform nice results.
+I want to thank Guoran Zhang for the contribution of the classification and result part for this project. We did really good job on this sentiment analysis and perform nice results.
 
 # References 
 
