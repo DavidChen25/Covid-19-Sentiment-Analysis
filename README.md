@@ -27,7 +27,7 @@ We use TextBlob package to visualize the sentiments with its polarity and subjec
 
 ![1](https://user-images.githubusercontent.com/54686263/117685734-305af980-b184-11eb-82bf-a7e3a2f97dbd.png) 
 
-Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [10].  
+Most of the tweets in the dataset seem to be neutral and not much subjectivity. However, in the polar tweets, there are slightly more positively charged tweets than negatively charged tweets. We can say that covid-19 pandemic on twitter is generally optimistic, but it would be nice to see what sentiment that people’s feelings and thoughts are [5].  
 
 ![image](https://user-images.githubusercontent.com/54686263/117685977-6a2c0000-b184-11eb-8cdc-8a90aea44143.png)  
 
@@ -43,8 +43,8 @@ Figure 5: WordCloud of Extremly Negative Sentiment
 
 ## Vectorization  
 
-1. Tf-IDF: It stands for “Term Frequency — Inverse Document Frequency”. This is a common technique to quantify a word in documents, it generally computes a weight to each word which signifies the importance of the word in the document and corpus [11]. By calculating Tf-IDF, we can easily see the most frequent words appears in the tweet texts. Then it filters those commonly words and remains the important words. We are using sklearn feature extraction package to vectorizing the tweets with tf-idf.  
-2. Part-of-speech taggings: A POS tag (or part-of-speech tag) is a special label assigned to each word in a text corpus to indicate the part of speech like “N” stands for noun and “A” stands for adjective etc [12]. With this tool, we can generate and remove those common tagsets to keep remaining important features.  
+1. Tf-IDF: It stands for “Term Frequency — Inverse Document Frequency”. This is a common technique to quantify a word in documents, it generally computes a weight to each word which signifies the importance of the word in the document and corpus [6]. By calculating Tf-IDF, we can easily see the most frequent words appears in the tweet texts. Then it filters those commonly words and remains the important words. We are using sklearn feature extraction package to vectorizing the tweets with tf-idf.  
+2. Part-of-speech taggings: A POS tag (or part-of-speech tag) is a special label assigned to each word in a text corpus to indicate the part of speech like “N” stands for noun and “A” stands for adjective etc [7]. With this tool, we can generate and remove those common tagsets to keep remaining important features.  
 3. CountVectorizer: It is a common feature numerical calculation class, which is a text feature extraction method. For each training text, it only considers the frequency of each word in the training text. We use CounterVectorizer function in sklearn package to do our analysis. The CountVectorizer converts words in the text into a word frequency matrix, which counts the number of occurrences of each word using the FIT_Transform function. There are many parameters in CountVectorizer classes.It has 3 procedures which are preprocessing、tokenizing and n-grams generation. Word matrix elements a[i][j] represent the word frequency of j words in the ith text. That is, the number of occurrences of each word, get_feature_names() to see the keywords for all the text, and toarray() to see the results of the word frequency matrix.  
 
 # Classification  
@@ -57,3 +57,45 @@ We set the stopwords as ‘English’ and add our stopwords list on it. Then usi
 
 For our research, we used 7 different classification models to do the sentiment analysis which are Naive Bayes, Logistic Regression, Random Forest, Support Vector Machines, CatBoost, XGboost, Stochastic Gradient Decent.  
 
+# Results  
+## Results for multiclass classification
+- Our winning model: Catboost classifier  
+
+![cat](https://user-images.githubusercontent.com/54686263/117687898-436ec900-b186-11eb-8598-37c267b75aab.png) 
+
+## Results for binary classification  
+- Our Winner model: Stochastic Gradient Decent classifier  
+
+![SGD](https://user-images.githubusercontent.com/54686263/117688007-61d4c480-b186-11eb-95e5-986610584fce.png)  
+
+## Evaluating all classification models  
+- For multiClass classification models:  
+
+![mul](https://user-images.githubusercontent.com/54686263/117688620-f0e1dc80-b186-11eb-8e96-e8298769b8da.png)  
+- For Binary Classification models:  
+
+![bi](https://user-images.githubusercontent.com/54686263/117688670-fccd9e80-b186-11eb-8621-011d5c0c458a.png)  
+
+# Conclution  
+We create a sentiment classifier for twitter using labelled data sets. We also investigate the relevance of using multiclass classifier and binary classifier for the purpose of sentiment analysis. To test our classification results, we split the dataset into train group with 80% of the whole dataset and test group with 20% of the whole dataset.  
+
+We use 7 classification methods to do our sentiment analysis and achieves 61% accuracy which is the best with CatBoost based on multiclass models. To improve our classification accuracy, we decide to use binary models to do the prediction. As a result, binary classification is much better than multiclass classification. Stochastic Gradient Descent (SGD) Classifier got the best performance with test accuracy 87%.  
+
+# Limitations  
+The sentiments are not labeled precisely since there are still existing some ambiguous sentences or sarcasms in the tweet’s sentiment. So the result seems to be more general but not show in detailed or precise.  
+
+# Future Work  
+
+We could do more classification models or topic modeling in the future for different topic.  
+
+The other topic such as vaccines could also help us to explore what are people saying with respect to side effects
+
+# References 
+
+[2] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].
+[2] M. A. Kausar, A. Soosaimanickam, and M. Nasar, “Public Sentiment Analysis on Twitter Data during COVID-19 Outbreak,” International Journal of Advanced Computer Science and Applications, vol. 12, no. 2, 2021.
+[3] B. P. Pokharel, “Twitter Sentiment Analysis During Covid-19 Outbreak in Nepal,” SSRN, 15-Jun-2020. [Online]. Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3624719. [Accessed: 09-May-2021].
+[4] A. Pareek, “ayushoriginal/Sentiment-Analysis-Twitter,” GitHub, 20-Oct-2016. [Online]. Available: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter. [Accessed: 10-May-2021].
+[5] S. Dua, “Sentiment Analysis of COVID-19 Vaccine Tweets,” Medium, 29-Mar-2021. [Online]. Available: https://towardsdatascience.com/sentiment-analysis-of-covid-19-vaccine-tweets-dc6f41a5e1af. [Accessed: 10-May-2021].
+[6] W. Scott, “TF-IDF for Document Ranking from scratch in python on real world dataset.,” Medium, 21-May-2019. [Online]. Available: https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089. [Accessed: 10-May-2021].
+[7] “POS tags and part-of-speech tagging,” Sketch Engine, 25-Sep-2020. [Online]. Available: https://www.sketchengine.eu/blog/pos-tags/. [Accessed: 10-May-2021].
