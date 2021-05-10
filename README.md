@@ -1,5 +1,5 @@
 # Covid-19-Sentiment-Analysis
-#### Yuqi Chen & Guoran Zhang
+#### Chen Yuqi & Zhang Guoran
 
 # Abstract
   COVID-19 pandemic happens on 11th March 2020 and it rapidly developed as one of the most wildly pandemic in human history. This study focuses on the sentiment analysis of tweets of the Twitter social media using Python programming language. The dataset has been collected from Twitter that contains 41157 tweets. The primary object is to use a sentiment classifier to study people’s attitudes to corona virus and predict. This report uses 7 different classification methods to predict the tweets contents and the corresponding attitudes. Results indicate that Catboost is the best model for multiclass classification with 61% accuracy and SGD is the best model for binary classification with 87% accuracy.
@@ -92,10 +92,10 @@ The other topic such as vaccines could also help us to explore what are people s
 
 # References 
 
-[2] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].
-[2] M. A. Kausar, A. Soosaimanickam, and M. Nasar, “Public Sentiment Analysis on Twitter Data during COVID-19 Outbreak,” International Journal of Advanced Computer Science and Applications, vol. 12, no. 2, 2021.
-[3] B. P. Pokharel, “Twitter Sentiment Analysis During Covid-19 Outbreak in Nepal,” SSRN, 15-Jun-2020. [Online]. Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3624719. [Accessed: 09-May-2021].
-[4] A. Pareek, “ayushoriginal/Sentiment-Analysis-Twitter,” GitHub, 20-Oct-2016. [Online]. Available: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter. [Accessed: 10-May-2021].
-[5] S. Dua, “Sentiment Analysis of COVID-19 Vaccine Tweets,” Medium, 29-Mar-2021. [Online]. Available: https://towardsdatascience.com/sentiment-analysis-of-covid-19-vaccine-tweets-dc6f41a5e1af. [Accessed: 10-May-2021].
-[6] W. Scott, “TF-IDF for Document Ranking from scratch in python on real world dataset.,” Medium, 21-May-2019. [Online]. Available: https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089. [Accessed: 10-May-2021].
-[7] “POS tags and part-of-speech tagging,” Sketch Engine, 25-Sep-2020. [Online]. Available: https://www.sketchengine.eu/blog/pos-tags/. [Accessed: 10-May-2021].
+[2] K. Chakraborty, S. Bhatia, S. Bhattacharyya, J. Platos, R. Bag, and A. E. Hassanien, “Sentiment Analysis of COVID-19 tweets by Deep Learning Classifiers-A study to show how popularity is affecting accuracy in social media,” Applied Soft Computing, 28-Sep-2020. [Online]. Available: https://www.sciencedirect.com/science/article/abs/pii/S156849462030692X. [Accessed: 09-May-2021].  
+[2] M. A. Kausar, A. Soosaimanickam, and M. Nasar, “Public Sentiment Analysis on Twitter Data during COVID-19 Outbreak,” International Journal of Advanced Computer Science and Applications, vol. 12, no. 2, 2021.  
+[3] B. P. Pokharel, “Twitter Sentiment Analysis During Covid-19 Outbreak in Nepal,” SSRN, 15-Jun-2020. [Online]. Available: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3624719. [Accessed: 09-May-2021].  
+[4] A. Pareek, “ayushoriginal/Sentiment-Analysis-Twitter,” GitHub, 20-Oct-2016. [Online]. Available: https://github.com/ayushoriginal/Sentiment-Analysis-Twitter. [Accessed: 10-May-2021].   
+[5] S. Dua, “Sentiment Analysis of COVID-19 Vaccine Tweets,” Medium, 29-Mar-2021. [Online]. Available: https://towardsdatascience.com/sentiment-analysis-of-covid-19-vaccine-tweets-dc6f41a5e1af. [Accessed: 10-May-2021].  
+[6] W. Scott, “TF-IDF for Document Ranking from scratch in python on real world dataset.,” Medium, 21-May-2019. [Online]. Available: https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089. [Accessed: 10-May-2021].  
+[7] “POS tags and part-of-speech tagging,” Sketch Engine, 25-Sep-2020. [Online]. Available: https://www.sketchengine.eu/blog/pos-tags/. [Accessed: 10-May-2021].  
