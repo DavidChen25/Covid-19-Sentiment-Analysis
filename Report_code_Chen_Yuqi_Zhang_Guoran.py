@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
----
-**Note**
-
-Guoran Zhang writing Classification and result part of this project. 
-
 # In[1]:
 
 
